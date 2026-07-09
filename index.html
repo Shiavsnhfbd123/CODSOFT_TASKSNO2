@@ -3,59 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Creative Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="container header-layout">
-            <h1 class="logo">Brand.</h1>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+
+        <div class="buttons">
+            <button class="btn clear">AC</button>
+            <button class="btn operator">%</button>
+            <button class="btn operator">÷</button>
+            <button class="btn operator">×</button>
+
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn operator">-</button>
+
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn operator">+</button>
+
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn equal">=</button>
+
+            <button class="btn zero">0</button>
+            <button class="btn">.</button>
         </div>
-    </header>
+    </div>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>Unleash Your Creativity</h2>
-            <p>A beautiful, user-friendly space to showcase your web development skills.</p>
-            <a href="#features" class="btn">Explore Now</a>
-        </div>
-    </section>
-
-    <section id="features" class="features">
-        <div class="container">
-            <h2 class="section-title">What You Will Learn</h2>
-            
-            <div class="column-layout">
-                <div class="feature-box">
-                    <h3>Alignments</h3>
-                    <p>Master text and item alignment to create a perfectly balanced visual hierarchy.</p>
-                </div>
-                <div class="feature-box">
-                    <h3>Spacing</h3>
-                    <p>Use padding and margins effectively to give your elements room to breathe.</p>
-                </div>
-                <div class="feature-box">
-                    <h3>Colors</h3>
-                    <p>Apply a cohesive color palette to make your design truly impressive.</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <footer id="contact">
-        <div class="container">
-            <p>&copy; 2026 My Web Project. Designed with HTML & CSS.</p>
-        </div>
-    </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
